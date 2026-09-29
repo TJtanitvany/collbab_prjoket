@@ -9,7 +9,7 @@ h1, h2, h3, p{
 }
 
 .img{
-    border: 10px solid #CC3A63;
+    border: 5px solid #CC3A63;
     border-radius: 5px;
 }
 
@@ -19,4 +19,17 @@ ol{
 
 footer{
     background-color: #A2AB73;
+}
+
+a:link, a:visited{
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blueviolet;
+}
+
+a:active{
+    background-color: red;
 }
