@@ -1,35 +1,107 @@
-body{
-    background-color:#F9F0E0;
-    padding: 30px;
+@font-face {
+  font-family: "Cat Meow";
+  src: url("betutipus/CatMeow-Regular.ttf");
 }
 
-h1, h2, h3, p{
-    font-family: sans-serif;
-    color: #2C2C2C;
+body {
+  background-color: #f9f0e0;
+  padding: 30px;
 }
 
-.img{
-    border: 5px solid #CC3A63;
-    border-radius: 5px;
+h1,
+h2,
+h3,
+p,
+li {
+  font-family: sans-serif;
+  color: #2c2c2c;
 }
 
-ol{
-    list-style-type: upper-roman;
+nav {
+  background-color: #a2ab73;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  word-spacing: 15px;
 }
 
-footer{
-    background-color: #A2AB73;
+article {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
 }
 
-a:link, a:visited{
-    color: yellowgreen;
-    text-decoration: none;
+h1 {
+  font-size: 40px;
+  font-family: "Cat Meow";
+  text-align: center;
 }
 
-a:hover{
-    background-color: blueviolet;
+h2,
+h3 {
+  font-size: 30px;
 }
 
-a:active{
-    background-color: red;
+article p,
+li {
+  font-size: 20px;
+}
+
+.img {
+  border: 5px solid #cc3a63;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.kiemelt {
+  font-weight: bold;
+  color: #a70d38;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+footer {
+  background-color: #a2ab73;
+}
+
+a:link,
+a:visited {
+  color: rgb(87, 33, 42);
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: rgb(187, 181, 97);
+}
+
+a:active {
+  background-color: red;
+  font-style: italic;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th,
+td {
+  border: 2px solid #2c2c2c;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #a2ab73;
+}
+
+tr:nth-child(odd) {
+  background-color: #e3e4e0;
+}
+
+tr:hover {
+  background-color: #859924;
 }
