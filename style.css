@@ -1,0 +1,22 @@
+body{
+    background-color:#F9F0E0;
+    padding: 30px;
+}
+
+h1, h2, h3, p{
+    font-family: sans-serif;
+    color: #2C2C2C;
+}
+
+.img{
+    border: 10px solid #CC3A63;
+    border-radius: 5px;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+
+footer{
+    background-color: #A2AB73;
+}
