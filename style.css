@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Cat Meow";
-  src: url("betutipus/CatMeow-Regular.ttf");
+  src: url("betutipus/focim/CatMeow-Regular.ttf");
 }
 
 body {
@@ -17,6 +17,12 @@ li {
   color: #2c2c2c;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Good Pawoo";
+}
+
 nav {
   background-color: #a2ab73;
   padding: 15px;
@@ -24,6 +30,17 @@ nav {
   border-radius: 10px;
   margin-bottom: 20px;
   word-spacing: 15px;
+}
+
+nav a {
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #cc3a63;
+  color: white;
 }
 
 article {
@@ -43,6 +60,22 @@ h3 {
   font-size: 30px;
 }
 
+figure {
+  display: inline-block;
+  text-align: center;
+  margin: 15px;
+  transition: transform 0.3s;
+}
+
+figure:hover {
+  transform: scale(1.1);
+}
+
+figcaption {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+}
 article p,
 li {
   font-size: 20px;
