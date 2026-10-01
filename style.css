@@ -29,7 +29,6 @@ nav {
   text-align: center;
   border-radius: 10px;
   margin-bottom: 20px;
-  word-spacing: 15px;
 }
 
 nav a {
@@ -137,4 +136,8 @@ tr:nth-child(odd) {
 
 tr:hover {
   background-color: #859924;
+}
+
+.navigacio{
+  padding: 10px;
 }
