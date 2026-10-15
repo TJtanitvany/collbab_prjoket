@@ -146,6 +146,7 @@ tr:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .fci_row img {
@@ -157,4 +158,75 @@ tr:hover {
 .fci_row {
   display: flex;
   gap: 100px;
+}
+
+.kapcsolodo_cikkek img {
+  width: 75px;
+  height: 75px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: "Good Pawoo";
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+
+.kapcs_cikk {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.kapcs_link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.szerzo {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+article {
+  margin-bottom: 0;
+  flex: 1;
+}
+aside {
+  flex: 0 0 300px;
+  background-color: #faf6f0;
+  border-top: 5px solid #cc3a63;
+  border-bottom: 5px solid #cc3a63;
+  margin-top: 70px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.kutyakepek {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
